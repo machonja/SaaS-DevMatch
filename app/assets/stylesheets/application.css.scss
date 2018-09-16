@@ -39,7 +39,7 @@ h1, h2, h3 {
 
 .navbar-brand {
   font-family: 'Oswald', sans-serif; 
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .home-callout {
@@ -48,6 +48,19 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #734b6d;
+  } 
+}
+
 
 //Homepage styles
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
